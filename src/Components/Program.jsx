@@ -53,11 +53,11 @@ const Program = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row mt-36 gap-32">
+      <div className="flex flex-row mt-24 gap-32 ">
         <div>
           <img src={Image} alt="" />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
           <p className="font-medium text-lg">Our Values To help you</p>
           <p className="font-light text-sm mt-2">
             We always want to provide the best value for you <br />
