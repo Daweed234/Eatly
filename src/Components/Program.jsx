@@ -5,7 +5,7 @@ const Program = () => {
         <div className='h-screen ml-20 mt-48'>
             <div>
                 <div>
-                    <p className='text-4xl font-semibold'>Our Programs</p>
+                    <p className='text-4xl font-semibold mb-10'>Our Programs</p>
                 </div>
                 <div className='flex justify-center'>
                     <div className='bg-gray-200 shadow-lg w-[1000px] h-48 mt-7 rounded-lg'>
