@@ -1,11 +1,10 @@
 import React from 'react';
-
 const Test = () => {
   return (
     // leftside
-    <div className='flex flex-row gap-32 mt-64 ml-20 h-screen'>
+    <div className='flex flex-row gap-20 mt-64 ml-20 h-screen'>
       <div className='flex flex-col'>
-      <div className='text-4xl mb-6'>Tell us what you think about us</div>
+      <div className='text-3xl mb-6'>Tell us what you think about us</div>
       <div className="flex flex-col space-y-6">
         <div className="flex flex-row gap-6">
           <div className="mb-4">
@@ -22,8 +21,9 @@ const Test = () => {
           <textarea id="message" name="message" rows="4" className="mt-1 p-2 block w-full border-gray-300 rounded-md resize-none border-2" placeholder="Enter your message"></textarea>
         </div>
         <div className="flex items-center gap-6">
+
           <button className="bg-purple-400  text-white px-9 py-2 rounded-md hover:bg-purple-500 ">Send</button>
-          <ion-icon onClick="onToggleMenu(this)" className="text-3xl cursor-pointer md:hidden" name="menu-outline"></ion-icon>
+
         </div>
       </div>
       </div>
@@ -31,11 +31,11 @@ const Test = () => {
       {/* right side */}
       <div>
         <div>
-          <p className='text-5xl font-semibold'>Testimonials</p>
+          <p className='text-3xl font-semibold'>Testimonials</p>
         </div>
-        <div className='bg-purple-200 w-[500px] h-1/2 rounded-lg mt-8'>
+        <div className='bg-purple-200 w-[500px] rounded-lg mt-8'>
           <div className='flex flex-col justify-center ml-10'>
-            <p className='mt-6 text-lg font-semibold'>In the smallest case we have always give you best,<br /> find out what other users</p>
+            <p className='mt-6 text-lg font-medium'>In the smallest case we have always give you best, find out what other users</p>
             <p className='mt-8 text-sm italic text-purple-600'>“Eatly really helps me to maintain food intake, is perfect for <br />
               those of you, who want to diet or just make the body more <br />
               healthy, In addition Eatly helped me to create a menu <br />
