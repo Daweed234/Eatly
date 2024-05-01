@@ -2,7 +2,7 @@ import React from 'react';
 const Test = () => {
   return (
     // leftside
-    <div className='flex flex-row gap-20 mt-64 ml-20 h-screen'>
+    <div className='flex flex-row gap-20 mt-64 ml-10 justify-center items-center'>
       <div className='flex flex-col'>
       <div className='text-3xl mb-6'>Tell us what you think about us</div>
       <div className="flex flex-col space-y-6">

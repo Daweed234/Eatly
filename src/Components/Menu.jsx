@@ -6,7 +6,7 @@ const Menu = () => {
     <>
       <div className=" flex flex-row ml-20 gap-32 ">
         {/* right side  */}
-        <div className="mt-20">
+        <div className="mt-20 ">
           <p className="font-bold text-xl">Try Our Free Menu</p>
           <p className="mt-3 text-sm">
             We provide a variety of healthy recipes that have <br />

@@ -53,7 +53,7 @@ const Program = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row mt-24 gap-32 ">
+      <div className="flex flex-row mt-24 gap-32 justify-center items-center">
         <div>
           <img src={Image} alt="" />
         </div>
